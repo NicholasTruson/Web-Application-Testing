@@ -1,4 +1,23 @@
 import React from 'react';
+
+import Dashboard from './dashboard';
+
+import './App.css';
+
+function App() {
+
+  return (
+    <div className="App">
+      <h1>Baseball is Meh..</h1>
+        <Dashboard />
+      </div>
+  );
+}
+
+export default App;
+
+/*
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -24,3 +43,4 @@ function App() {
 }
 
 export default App;
+*/
